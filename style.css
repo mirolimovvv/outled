@@ -205,12 +205,40 @@
     
    
 }
+.navbar .ikonka{
+    display: none;
+
+}
 .card:hover .drop{
     width: 100%;
     height: 100%;
     border-radius: 5px;
 }.card:hover{
     color: white;
+}
+@media screen and (max-width:500px){
+    .header .about{
+        display: none;
+    }
+    .cards{
+        padding: 10px 10px;
+    display:  block;
+    }
+    .card{
+        font-size: xx-small;
+    }
+    .navbar .ikonka{
+        display: block;    
+    }
+    .navbar .menu{
+        display: none;    
+    }
+    section img{
+        width: 500px;
+    }
+
+
+
 }
 
 
